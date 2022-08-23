@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f65b458633.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Spotfy</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <ul>
+        <li><a href="#">Premium</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Suporte</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Baixar</a></li>
+      </ul>
+      <ul>
+        <li>|</li>
+      </ul>
+      <ul>
+        <li><a href="#">Inscrever-se</a></li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#"><button>Entrar</button></a>
+        </li>
+      </ul>
+    </div>
+    <!-- card musics -->
+    <h2 class="title">Playlist</h2>
+    <div class="card-container">
+      <div class="card">
+        <div class="players">
+          <img src="img/heroes tumbnail.png" alt="music1" />
+          <i class="fa-solid fa-circle-play bottom-play"></i>
+          <i class="fa-solid fa-circle-pause bottom-pause"></i>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title" >Top NCS </h5>
+        </div>
+      </div>
+    </div>
+    
+    <!-- player -->
+    <div class="player">
+      <img src="img/1.jpg" id="img" alt="">
+      <div class="data-music">
+        <h3></h3>
+        <p style="width: 200px;"></p>
+        <img  id="gif" src="img/playing.gif" alt="">
+      </div>
+      <div class="duration">
+        <div class="buttom-play">
+          <i class="fa-solid fa-backward-step previous"></i>
+          <i class="fa-solid fa-circle-play " id="bottom-play-timeline"></i>
+          <i class="fa-solid fa-forward-step next"></i>
+        </div>  
+       <div class="timeline">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+      </div>
+      </div>
+    </div>
+    </div>
+    <audio src="musicas/Syn Cole - Need Ya [NCS Release].mp3"></audio>
+    
+  </body>
+  <script src="js/scripts.js"></script>
+  
+</html>
