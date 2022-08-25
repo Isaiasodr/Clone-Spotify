@@ -131,3 +131,9 @@ function renderMusic(index) {
     image.src = musics[index].img;
   });
 }
+
+music.onended = function () {
+  musicIndex++;
+  renderMusic(musicIndex);
+  music.play();
+};
